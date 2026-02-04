@@ -1,0 +1,16 @@
+timezone: America/New_York
+
+universe:
+  fx: [DXY, USDJPY, EURUSD, USDCNH]
+  rates: [US2Y, US10Y, US30Y]
+  equity_index: [SPY, QQQ, IWM]
+  equity_sectors: [XLK, XLF, XLE, XLV, XLY, XLP, XLI, XLB, XLRE, XLU]
+  vol: [VIX]
+
+portfolio:
+  positions_path: "./positions.csv"
+  cash_symbol: "CASH"
+
+report:
+  output_dir: "./reports"
+  include_charts: false
